@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Das bunte Deck – Eröffnungsfestival</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="Bilder/Reine-weiß.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- HEADER / HERO -->
+    <header class="hero">
+      <div class="nav">
+        <a href="#">
+          <img src="Bilder/Color.svg" alt="Hafendeck Logo" class="nav__logo" />
+        </a>
+        <input type="checkbox" id="nav__toggle" class="nav__toggle-input" />
+        <label for="nav__toggle" class="nav__burger">
+          <span class="nav__burger-line"></span>
+          <span class="nav__burger-line nav__burger-line--middle"></span>
+          <span class="nav__burger-line"></span>
+        </label>
+
+        <nav class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#programm" class="nav__link">Programm</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Über uns</a>
+            </li>
+            <li class="nav__item">
+              <a href="#anmeldung" class="nav__link">Anmeldung</a>
+            </li>
+            <li class="nav__item">
+              <a href="#infos" class="nav__link">Infos</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skatturnier" class="nav__link nav__link--outline"
+                >Skatturnier</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <article class="hero__content">
+        <span class="hero__date">27. September 2026</span>
+        <h1 class="hero__title">Das bunte Deck</h1>
+        <p class="hero__subtitle">Eröffnungsfestival</p>
+        <p class="hero__tagline">Drucken · Spielen · Feiern .</p>
+      </article>
+    </header>
+
+    <!-- MAIN -->
+    <main class="page">
+      <!-- Intro -->
+      <section class="intro">
+        <ul class="info-bar">
+          <li class="info-bar__item">
+            <span class="info-bar__icon info-bar__icon--large">
+              <img src="Bilder/Calendar 28.svg" alt="Kalender" />
+            </span>
+            <span class="info-bar__text">Sonntag, 27. September 2026</span>
+          </li>
+          <li class="info-bar__item">
+            <span class="info-bar__icon">
+              <img src="Bilder/Clock.svg" alt="Uhr" />
+            </span>
+            <span class="info-bar__text">10–24 Uhr</span>
+          </li>
+          <li class="info-bar__item">
+            <span class="info-bar__icon">
+              <img src="Bilder/Tracking.svg" alt="Ort" />
+            </span>
+            <span class="info-bar__text">Speicherstadt Hamburg</span>
+          </li>
+          <li class="info-bar__item">
+            <span class="info-bar__icon">
+              <img src="Bilder/Ticket.svg" alt="Ticket" />
+            </span>
+            <span class="info-bar__text">Eintritt frei!</span>
+          </li>
+        </ul>
+
+        <div class="intro__body">
+          <p class="intro__heading">
+            Das bunte Deck bringt <br />
+            die Speicherstadt zum Leben!
+          </p>
+          <p class="intro__text">
+            Am 27. September 2026 feiern wir die Eröffnung des Hafendecks mit
+            einem Festival, das Tradition und Kreativität zusammenbringt. Erlebt
+            Live-Druckvorführungen, spielt beim großen Skatturnier mit, probiert
+            selbst Drucktechniken aus oder genießt einfach die einzigartige
+            Atmosphäre zwischen historischen Backsteinmauern.
+          </p>
+          <div class="intro__actions">
+            <a href="#anmeldung" class="btn btn--primary btn__hover-size-10">
+              Jetzt anmelden
+              <span class="btn__icon"
+                ><img src="Bilder/Vector.svg" alt=""
+              /></span>
+            </a>
+            <a href="#programm" class="btn btn--secondary btn__hover-size">
+              Programm
+              <span class="btn__icon"
+                ><img src="Bilder/Vector.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Festival-Programm -->
+      <section class="program" id="programm">
+        <header class="section-header">
+          <h2 class="section-header__title">Festival-Programm</h2>
+          <p class="section-header__subtitle">Was euch erwartet.</p>
+        </header>
+
+        <article class="program-card">
+          <img
+            src="Bilder/live-druck.webp"
+            alt="Historische Druckmaschinen in Aktion"
+            class="program-card__image"
+          />
+          <div class="program-card__body">
+            <h3 class="program-card__title">Live-Druckvorführungen</h3>
+            <p class="program-card__text">
+              Seht zu, wie auf historischen Maschinen Karte für Karte entsteht.
+              Unsere Drucker zeigen euch das traditionelle Handwerk und
+              beantworten alle eure Fragen.
+            </p>
+            <a href="#" class="btn btn--card">
+              Mehr erfahren
+              <span class="btn__icon"
+                ><img src="Bilder/Vector.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </article>
+
+        <article class="program-card">
+          <img
+            src="Bilder/Skatturnier-mit-Preisen.webp"
+            alt="Spielkarte mit Skatturnier"
+            class="program-card__image"
+          />
+          <div class="program-card__body">
+            <h3 class="program-card__title">Skatturnier mit Preisen</h3>
+            <p class="program-card__text">
+              Messt euch mit anderen beim großen Skatturnier! Egal ob Profi oder
+              Gelegenheitsspieler – tolle Preise warten auf die Gewinner. Meldet
+              euch jetzt an und sichert euch euren Platz.
+            </p>
+            <a href="#" class="btn btn--card">
+              Mehr erfahren
+              <span class="btn__icon"
+                ><img src="Bilder/Vector.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </article>
+
+        <article class="program-card">
+          <img
+            src="Bilder/Workshops-zum-Mitmachen.webp"
+            alt="Workshops zum Mitmachen"
+            class="program-card__image"
+          />
+          <div class="program-card__body">
+            <h3 class="program-card__title">Workshops zum Mitmachen</h3>
+            <p class="program-card__text">
+              Legt selbst Hand an und gestaltet eure eigenen Karten. Probiert
+              verschiedene Drucktechniken aus und nehmt euer Werk mit nach
+              Hause.
+            </p>
+            <a href="#" class="btn btn--card">
+              Mehr erfahren
+              <span class="btn__icon"
+                ><img src="Bilder/Vector.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </article>
+
+        <article class="program-card">
+          <img
+            src="Bilder/Künstler_innen-Kreative.webp"
+            alt="Künstlerinnen und Kreative"
+            class="program-card__image"
+          />
+          <div class="program-card__body">
+            <h3 class="program-card__title">Künstler:innen &amp; Kreative</h3>
+            <p class="program-card__text">
+              Entdeckt innovative Kartenkreationen lokaler Künstler:innen und
+              lasst euch inspirieren von Designs, die es nur hier gibt.
+            </p>
+            <a href="#" class="btn btn--card">
+              Mehr erfahren
+              <span class="btn__icon"
+                ><img src="Bilder/Vector.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </article>
+
+        <article class="program-card">
+          <img
+            src="Bilder/Musik-Food_Drinks.webp"
+            alt="Musik, Food und Drinks"
+            class="program-card__image"
+          />
+          <div class="program-card__body">
+            <h3 class="program-card__title">Musik, Food &amp; Drinks</h3>
+            <p class="program-card__text">
+              Live-Musik, leckeres Essen von regionalen Food-Ständen und Drinks
+              sorgen für Festival-Stimmung in der Speicherstadt.
+            </p>
+            <a href="#" class="btn btn--card">
+              Mehr erfahren
+              <span class="btn__icon"
+                ><img src="Bilder/Vector.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </article>
+
+        <article class="program-card">
+          <img
+            src="Bilder/Spielen__Genießen.webp"
+            alt="Spielen und Genießen"
+            class="program-card__image"
+          />
+          <div class="program-card__body">
+            <h3 class="program-card__title">Spielen &amp; Genießen</h3>
+            <p class="program-card__text">
+              Probiert klassische und ausgefallene Kartenspiele aus, gewinnt an
+              verschiedenen Stationen tolle Preise oder chillt einfach in der
+              einzigartigen Atmosphäre.
+            </p>
+            <a href="#" class="btn btn--card">
+              Mehr erfahren
+              <span class="btn__icon"
+                ><img src="Bilder/Vector.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </article>
+      </section>
+
+      <!-- Über das Hafendeck -->
+      <section class="about" id="about">
+        <header class="section-header">
+          <h2 class="section-header__title">Über das Hafendeck</h2>
+        </header>
+
+        <div class="about__card">
+          <img
+            src="Bilder/speicherstadt.webp"
+            alt="Speicherstadt Hamburg"
+            class="about__image"
+          />
+          <div class="about__body">
+            <h3 class="about__title">
+              Wo Geschichte lebt und <br />
+              Karten entstehen.
+            </h3>
+            <p class="about__text">
+              Das Hafendeck ist mehr als ein Museum – es ist eine lebendige
+              Werkstatt in der Hamburger Speicherstadt. Hier verbinden wir fast
+              200 Jahre Drucktradition mit zeitgenössischer Kreativität. An
+              historischen Maschinen entstehen täglich handgefertigte
+              Spielkarten, in Workshops könnt ihr selbst aktiv werden, und bei
+              regelmäßigen Spieleabenden trifft sich eine bunte Community. Seid
+              von Anfang an dabei und erlebt, wie Tradition auf Innovation
+              trifft!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Anmeldung Skatturnier -->
+      <section class="registration" id="anmeldung">
+        <header class="section-header">
+          <h2 class="section-header__title section-header__title--light">
+            Anmeldung Skatturnier
+          </h2>
+          <p class="section-header__subtitle section-header__subtitle--light">
+            Jetzt anmelden und mitspielen!
+          </p>
+        </header>
+
+        <!-- KI wurde zur Unterstützung bei der Strukturierung dieses Formularabschnitts genutzt -->
+        <!-- Anfang KI-Code -->
+        <div class="registration__wrapper">
+          <p class="registration__intro">
+            Die Plätze für unser Skatturnier sind begrenzt. Meldet euch jetzt an
+            und sichert euch die Chance auf tolle Preise!
+          </p>
+
+          <div class="registration__form-wrap">
+            <form class="form" id="skatturnier">
+              <div class="form__row">
+                <div class="form__group">
+                  <label class="form__label" for="vorname">Vorname *</label>
+                  <input
+                    class="form__input"
+                    type="text"
+                    id="vorname"
+                    name="vorname"
+                    placeholder="Leon"
+                    required
+                  />
+                </div>
+                <div class="form__group">
+                  <label class="form__label" for="nachname">Nachname *</label>
+                  <input
+                    class="form__input"
+                    type="text"
+                    id="nachname"
+                    name="nachname"
+                    placeholder="Mustermann"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form__group">
+                <label class="form__label" for="email">E-Mail *</label>
+                <input
+                  class="form__input"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="leon@beispiel.de"
+                  required
+                />
+              </div>
+
+              <div class="form__row">
+                <div class="form__group">
+                  <label class="form__label" for="telefon">Telefon</label>
+                  <input
+                    class="form__input"
+                    type="tel"
+                    id="telefon"
+                    name="telefon"
+                    placeholder="Optional"
+                  />
+                </div>
+                <div class="form__group">
+                  <span class="form__label">Spielerfahrung *</span>
+                  <div class="form__radio-group">
+                    <label class="form__radio-label">
+                      <input
+                        class="form__radio"
+                        type="radio"
+                        name="experience"
+                        value="anfänger"
+                      />
+                      Anfänger
+                    </label>
+                    <label class="form__radio-label">
+                      <input
+                        class="form__radio"
+                        type="radio"
+                        name="experience"
+                        value="fortgeschritten"
+                      />
+                      Fortgeschritten
+                    </label>
+                    <label class="form__radio-label">
+                      <input
+                        class="form__radio"
+                        type="radio"
+                        name="experience"
+                        value="profi"
+                      />
+                      Profi
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <!-- Ende KI-Code -->
+
+              <div class="form__group">
+                <label class="form__label" for="nachricht"
+                  >Nachricht (optional)</label
+                >
+                <textarea
+                  class="form__textarea"
+                  id="nachricht"
+                  name="nachricht"
+                  rows="4"
+                  placeholder="Deine Nachricht..."
+                ></textarea>
+              </div>
+
+              <div class="form__privacy">
+                <label class="form__checkbox-label">
+                  <input class="form__checkbox" type="checkbox" required />
+                  Ich akzeptiere die
+                  <a href="#" class="form__privacy-link"
+                    >Datenschutzerklärung</a
+                  >
+                </label>
+              </div>
+
+              <button type="submit" class="btn btn--submit">
+                Jetzt anmelden
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Praktische Infos -->
+      <section class="facts" id="infos">
+        <header class="section-header">
+          <h2 class="section-header__eyebrow">Praktische Infos</h2>
+          <p class="section-header__title">Das bunte Deck auf einen Blick</p>
+        </header>
+
+        <div class="facts__grid">
+          <article class="facts-card">
+            <img
+              src="Bilder/skatt.webp"
+              alt="Skatturnier"
+              class="facts-card__image"
+            />
+            <div class="facts-card__body">
+              <div class="facts-card__info">
+                <h3 class="facts-card__title">Skatturnier:</h3>
+                <p class="facts-card__text">
+                  Begrenzte Plätze <br />
+                  <a href="#skatturnier" class="facts-card__link"
+                    >Anmeldung erforderlich</a
+                  >
+                </p>
+              </div>
+              <div class="facts-card__meta">
+                <span class="facts-card__meta-icon"
+                  ><img src="Bilder/Calendar 28.svg" alt="Datum"
+                /></span>
+                <span>Sonntag, 27. September 2026</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="facts-card">
+            <img
+              src="Bilder/speicherstadat.webp"
+              alt="Ort"
+              class="facts-card__image"
+            />
+            <div class="facts-card__body">
+              <div class="facts-card__info">
+                <h3 class="facts-card__title">Ort:</h3>
+                <p class="facts-card__text">
+                  Hafendeck, Kehrwieder 2 <br />
+                  <a
+                    href="https://maps.app.goo.gl/NtwSyjkRCybVftyAA"
+                    target="_blank"
+                    class="facts-card__link"
+                  >
+                    Block D, 20457 Hamburg
+                  </a>
+                </p>
+              </div>
+              <div class="facts-card__meta">
+                <span class="facts-card__meta-icon"
+                  ><img src="Bilder/Clock.svg" alt="Zeit"
+                /></span>
+                <span>10–24 Uhr</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="facts-card">
+            <img
+              src="Bilder/adress.webp"
+              alt="Anfahrt"
+              class="facts-card__image"
+            />
+            <div class="facts-card__body">
+              <div class="facts-card__info">
+                <h3 class="facts-card__title">Anfahrt:</h3>
+                <p class="facts-card__text">
+                  U3, Haltestelle <br />
+                  <a
+                    href="https://share.google/OVG9icmifsC0lXuO9"
+                    target="_blank"
+                    class="facts-card__link"
+                    >Baumwall</a
+                  >
+                </p>
+              </div>
+              <div class="facts-card__meta">
+                <span class="facts-card__meta-icon"
+                  ><img src="Bilder/Ticket.svg" alt="Ticket"
+                /></span>
+                <span>Eintritt frei!</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Save the Date -->
+      <section class="save-date">
+        <div class="save-date__inner">
+          <h2 class="save-date__title">
+            Markiert euch den <br />
+            <span class="save-date__title--highlight">27. September!</span>
+          </h2>
+
+          <p class="save-date__text">
+            Wir freuen uns auf euch – kommt vorbei und
+            <br class="save-date__break--desktop" />
+            feiert mit uns die Eröffnung des Hafendecks.
+            <strong>Bis bald in der Speicherstadt!</strong>
+          </p>
+
+          <a href="#" class="btn btn--card">
+            Jetzt dabei sein
+            <span class="btn__icon"
+              ><img src="Bilder/Vector-1.png" alt=""
+            /></span>
+          </a>
+
+          <div class="save-date__bar">
+            <div class="save-date__socials">
+              <span>Folgt uns:</span>
+              <a href="#" class="save-date__social-link"
+                ><img src="Bilder/Facebook.svg" alt="Facebook"
+              /></a>
+              <a href="#" class="save-date__social-link"
+                ><img src="Bilder/Instagram.svg" alt="Instagram"
+              /></a>
+              <a href="#" class="save-date__social-link"
+                ><img src="Bilder/YouTube.svg" alt="YouTube"
+              /></a>
+            </div>
+            <div class="save-date__contact">
+              <a
+                href="mailto:kontakt@hafendeck.de"
+                class="save-date__contact-link u-link-white"
+                >kontakt@hafendeck.de</a
+              >
+              <span class="save-date__separator">|</span>
+              <a
+                href="tel:01516578767"
+                class="save-date__contact-link u-link-white"
+                >0151-6578767</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__block footer__block--brand">
+          <a href="#">
+            <img
+              src="Bilder/Color.svg"
+              alt="Hafendeck Logo"
+              class="footer__logo"
+            />
+          </a>
+          <p class="footer__description">
+            Kreativität erleben wo aus Tradition Neues entsteht. Das Hafendeck
+            macht traditionelles Druckhandwerk modern und kreativ erlebbar.
+          </p>
+        </div>
+
+        <div class="footer__block">
+          <h4 class="footer__block-title">Kontakt</h4>
+          <div class="footer__contact-item">
+            <img src="Bilder/Email.svg" alt="" />
+            <a
+              href="mailto:kontakt@hafendeck.de"
+              class="footer__contact-link u-link-white"
+              >kontakt@hafendeck.de</a
+            >
+          </div>
+          <div class="footer__contact-item">
+            <img src="Bilder/Phone.svg" alt="" />
+            <a href="tel:01516578767" class="footer__contact-link u-link-white"
+              >0151-6578767</a
+            >
+          </div>
+          <div class="footer__contact-item">
+            <img src="Bilder/Tracking.svg" alt="" />
+            <span>Kehrwieder 2, Block D<br />20457 Hamburg</span>
+          </div>
+        </div>
+
+        <div class="footer__block">
+          <h4 class="footer__block-title">Folge uns</h4>
+          <p class="footer__social-text">
+            Bleib auf dem Laufenden über Events, Workshops und Neuigkeiten!
+          </p>
+          <div class="footer__socials">
+            <a href="#" class="footer__social-link"
+              ><img src="Bilder/Facebook.svg" alt="Facebook"
+            /></a>
+            <a href="#" class="footer__social-link"
+              ><img src="Bilder/Instagram.svg" alt="Instagram"
+            /></a>
+            <a href="#" class="footer__social-link"
+              ><img src="Bilder/YouTube.svg" alt="YouTube"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
